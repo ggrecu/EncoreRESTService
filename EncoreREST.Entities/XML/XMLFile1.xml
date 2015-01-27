@@ -1,0 +1,625 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+
+<Track>
+
+  <!--DONE-->
+  <BeatsPerMinute>80</BeatsPerMinute>
+
+  <!--DONE-->
+  <Created>2014-01-01 09:00:00</Created>
+
+  <!--DONE-->
+  <CreatedBy>
+
+
+    <Id>123</Id>
+
+
+    <Name>John McAliley</Name>
+
+
+    <email>john.mcaliley@moodmedia.com</email>
+
+
+  </CreatedBy>
+
+  <!--DONE-->
+  <DisplayTitle>Money</DisplayTitle>
+
+  <!--DONE-->
+  <Duration>382</Duration>
+
+  <!--DONE-->
+  <EncodedAudioFiles>
+
+
+    <element>
+
+
+      <Location>/some/share/file.mp3</Location>
+
+
+      <Platform>Studio</Platform>
+
+
+    </element>
+
+
+    <element>
+
+
+      <Location>/some/share/file2.mp3</Location>
+
+
+      <Platform>Well</Platform>
+
+
+    </element>
+
+
+  </EncodedAudioFiles>
+
+  <!--DONE-->
+  <Genres>
+
+
+    <element>
+
+
+      <Id>1</Id>
+
+
+      <Name>Rock</Name>
+
+
+      <ParentGenre null="true" />
+
+
+    </element>
+
+
+    <element>
+
+
+      <Id>2</Id>
+
+
+      <Name>ClassicRock</Name>
+
+
+      <ParentGenre>
+
+
+        <Id>1</Id>
+
+
+        <Name>Rock</Name>
+
+
+      </ParentGenre>
+
+
+    </element>
+
+
+  </Genres>
+
+  <!--DONE-->
+  <Guid>abcxyz123</Guid>
+
+  <!--DONE-->
+  <ISRC>CN-A26-06-422-00</ISRC>
+
+  <!--DONE-->
+  <Id>12345</Id>
+
+  <!--DONE-->
+  <IsActive>1</IsActive>
+
+  <!--DONE-->
+  <IsInstrumental>0</IsInstrumental>
+
+  <!--WRONG PLACEMENT?-->
+  <Labels />
+
+  <!--DONE-->
+  <MusicalWork>
+
+    <!--DONE-->
+    <CircleC>1973</CircleC>
+
+    <!--DONE-->
+    <Created>2014-01-0109: 00: 00</Created>
+
+    <!--DONE-->
+    <CreatedBy>
+
+
+      <Id>123</Id>
+
+
+      <Name>JohnMcAliley</Name>
+
+
+      <email>john.mcaliley@moodmedia.com</email>
+
+
+    </CreatedBy>
+
+    <!--DONE-->
+    <HFACode>12345</HFACode>
+
+    <!--DONE-->
+    <Id>12345</Id>
+
+    <!--DONE-->
+    <Publishers>
+
+      <!--DONE-->
+      <Publisher>
+
+
+        <Created>2014-01-0109: 00: 00</Created>
+
+
+        <CreatedBy>
+
+
+          <Id>123</Id>
+
+
+          <Name>JohnMcAliley</Name>
+
+
+          <email>john.mcaliley@moodmedia.com</email>
+
+
+        </CreatedBy>
+
+
+        <HasInternationalClearance>1</HasInternationalClearance>
+
+
+        <HasMechanicalRight>1</HasMechanicalRight>
+
+
+        <HasPerformanceRight>1</HasPerformanceRight>
+
+
+        <HasVideoRight>1</HasVideoRight>
+
+
+        <Id>12345</Id>
+
+
+        <Split>100</Split>
+
+
+        <Territory>US</Territory>
+
+
+        <Updated>2014-01-0109: 00: 00</Updated>
+
+
+        <UpdatedBy>
+
+
+          <Id>123</Id>
+
+
+          <Name>JohnMcAliley</Name>
+
+
+          <email>john.mcaliley@moodmedia.com</email>
+
+
+        </UpdatedBy>
+
+
+        <name>HampshireHousePublishingCo.</name>
+
+
+      </Publisher>
+
+
+    </Publishers>
+
+    <!--DONE-->
+    <Title>Money</Title>
+
+    <!--DONE-->
+    <Updated>20  <!--DONE-->14-01-0109: 00: 00</Updated>
+
+    <!--DONE-->
+    <UpdatedBy>
+
+
+      <Id>123</Id>
+
+
+      <Name>JohnMcAliley</Name>
+
+
+      <email>john.mcaliley@moodmedia.com</email>
+
+
+    </UpdatedBy>
+
+    <!--DONE-->
+    <Writers>
+
+
+      <element>
+
+
+        <Id>123</Id>
+
+
+        <Name>RogerWaters</Name>
+
+
+      </element>
+
+
+    </Writers>
+
+
+  </MusicalWork>
+
+  <!--DONE-->
+  <PhysicalDisc>
+
+
+    <CatelogNumber>abc123</CatelogNumber>
+
+
+    <Created>2014-01-0109: 00: 00</Created>
+
+
+    <CreatedBy>
+
+
+      <Id>123</Id>
+
+
+      <Name>JohnMcAliley</Name>
+
+
+      <email>john.mcaliley@moodmedia.com</email>
+
+
+    </CreatedBy>
+
+
+    <DiscNumber>1</DiscNumber>
+
+
+    <Id>12345</Id>
+
+
+    <Location>Austin</Location>
+
+
+    <Updated>2014-01-0109: 00: 00</Updated>
+
+
+    <UpdatedBy>
+
+
+      <Id>123</Id>
+
+
+      <Name>JohnMcAliley</Name>
+
+
+      <email>john.mcaliley@moodmedia.com</email>
+
+
+    </UpdatedBy>
+
+
+  </PhysicalDisc>
+
+
+  <!--DONE-->
+  <PrimaryArtist>
+
+
+    <Country>UK</Country>
+
+
+    <Created>2014-01-01 09:00:00</Created>
+
+
+    <CreatedBy>
+
+
+      <Id>123</Id>
+
+
+      <Name>John McAliley</Name>
+
+
+      <email>john.mcaliley@moodmedia.com</email>
+
+
+    </CreatedBy>
+
+
+    <Description>Pink Floyd is a band....</Description>
+
+
+    <DisplayName>Pink Floyd</DisplayName>
+
+
+    <Guid>123xyzabc</Guid>
+
+
+    <Id>12345</Id>
+
+
+    <IsActive>1</IsActive>
+
+
+    <IsGroup>1</IsGroup>
+
+
+    <Name>Pink Floyd</Name>
+
+
+    <Updated>2014-01-01 09:00:00</Updated>
+
+
+    <UpdatedBy>
+
+
+      <Id>123</Id>
+
+
+      <Name>John McAliley</Name>
+
+
+      <email>john.mcaliley@moodmedia.com</email>
+
+
+    </UpdatedBy>
+
+
+  </PrimaryArtist>
+
+  <!--DONE-->
+  <Release>
+
+
+    <CDDBID>123xyz</CDDBID>
+
+
+    <CircleP>1973</CircleP>
+
+
+    <Created>2014-01-0109: 00: 00</Created>
+
+
+    <CreatedBy>
+
+
+      <Id>123</Id>
+
+
+      <Name>JohnMcAliley</Name>
+
+
+      <email>john.mcaliley@moodmedia.com</email>
+
+
+    </CreatedBy>
+
+
+    <DisplayTitle>DarkSideoftheMoon</DisplayTitle>
+
+
+    <Guid>123xyzabc</Guid>
+
+
+    <Id>12345</Id>
+
+
+    <IsActive>1</IsActive>
+
+
+    <IsCompilation>0</IsCompilation>
+
+
+    <Labels>
+
+
+      <element>
+
+
+        <HasMasterRight>1</HasMasterRight>
+
+
+        <HasVideoRight>1</HasVideoRight>
+
+
+        <Id>12345</Id>
+
+
+        <LicensingEntity>MoodMedia</LicensingEntity>
+
+
+        <Name>EMI</Name>
+
+
+        <Territory>US</Territory>
+
+
+      </element>
+
+
+    </Labels>
+
+
+    <NumberOfTracks>10</NumberOfTracks>
+
+
+    <PrimaryArtist>
+
+
+      <Country>UK</Country>
+
+
+      <Created>2014-01-0109: 00: 00</Created>
+
+
+      <CreatedBy>
+
+
+        <Id>123</Id>
+
+
+        <Name>JohnMcAliley</Name>
+
+
+        <email>john.mcaliley@moodmedia.com</email>
+
+
+      </CreatedBy>
+
+
+      <Description>PinkFloydisaband....</Description>
+
+
+      <DisplayName>PinkFloyd</DisplayName>
+
+
+      <Guid>123xyzabc</Guid>
+
+
+      <Id>12345</Id>
+
+
+      <IsActive>1</IsActive>
+
+
+      <IsGroup>1</IsGroup>
+
+
+      <Name>PinkFloyd</Name>
+
+
+      <Updated>2014-01-0109: 00: 00</Updated>
+
+
+      <UpdatedBy>
+
+
+        <Id>123</Id>
+
+
+        <Name>JohnMcAliley</Name>
+
+
+        <email>john.mcaliley@moodmedia.com</email>
+
+
+      </UpdatedBy>
+
+
+    </PrimaryArtist>
+
+
+    <Requested>2014-01-0105: 00: 00</Requested>
+
+
+    <RequestedBy>
+
+
+      <Id>124</Id>
+
+
+      <Name>JoshFlowers</Name>
+
+
+      <email>josh.flowers@moodmedia.com</email>
+
+
+    </RequestedBy>
+
+
+    <Title>DarkSideoftheMoon</Title>
+
+
+    <Updated>2014-01-0109: 00: 00</Updated>
+
+
+    <UpdatedBy>
+
+
+      <Id>123</Id>
+
+
+      <Name>JohnMcAliley</Name>
+
+
+      <email>john.mcaliley@moodmedia.com</email>
+
+
+    </UpdatedBy>
+
+
+  </Release>
+
+  <!--DONE-->
+  <Requested>2014-01-01 05:00:00</Requested>
+
+  <!--DONE-->
+  <RequestedBy>
+
+
+    <Id>124</Id>
+
+
+    <Name>Josh Flowers</Name>
+
+
+    <email>josh.flowers@moodmedia.com</email>
+
+
+  </RequestedBy>
+
+  <!--DONE-->
+  <Title>Money</Title>
+
+  <!--DONE-->
+  <TrackNumber>6</TrackNumber>
+
+  <!--DONE-->
+  <Updated>2014-01-01 09:00:00</Updated>
+
+  <!--DONE-->
+  <UpdatedBy>
+
+
+    <Id>123</Id>
+
+
+    <Name>John McAliley</Name>
+
+
+    <email>john.mcaliley@moodmedia.com</email>
+
+
+  </UpdatedBy>
+
+  <!--DONE-->
+  <VocalGender>M</VocalGender>
+
+  <!--DONE-->
+  <Year>1973</Year>
+
+
+</Track>
+
+

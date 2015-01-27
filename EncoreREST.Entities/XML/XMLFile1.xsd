@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="CreatedBy">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Id" type="xs:string" minOccurs="0" />
+        <xs:element name="Name" type="xs:string" minOccurs="0" />
+        <xs:element name="email" type="xs:string" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="element">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Location" type="xs:string" minOccurs="0" />
+        <xs:element name="Platform" type="xs:string" minOccurs="0" />
+        <xs:element name="Id" type="xs:string" minOccurs="0" />
+        <xs:element name="Name" type="xs:string" minOccurs="0" />
+        <xs:element name="HasMasterRight" type="xs:string" minOccurs="0" />
+        <xs:element name="HasVideoRight" type="xs:string" minOccurs="0" />
+        <xs:element name="LicensingEntity" type="xs:string" minOccurs="0" />
+        <xs:element name="Territory" type="xs:string" minOccurs="0" />
+        <xs:element name="ParentGenre" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" type="xs:string" minOccurs="0" msdata:Ordinal="0" />
+              <xs:element name="Name" type="xs:string" minOccurs="0" msdata:Ordinal="1" />
+            </xs:sequence>
+            <xs:attribute name="null" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdatedBy">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Id" type="xs:string" minOccurs="0" />
+        <xs:element name="Name" type="xs:string" minOccurs="0" />
+        <xs:element name="email" type="xs:string" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PrimaryArtist">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Country" type="xs:string" minOccurs="0" />
+        <xs:element name="Created" type="xs:string" minOccurs="0" />
+        <xs:element name="Description" type="xs:string" minOccurs="0" />
+        <xs:element name="DisplayName" type="xs:string" minOccurs="0" />
+        <xs:element name="Guid" type="xs:string" minOccurs="0" />
+        <xs:element name="Id" type="xs:string" minOccurs="0" />
+        <xs:element name="IsActive" type="xs:string" minOccurs="0" />
+        <xs:element name="IsGroup" type="xs:string" minOccurs="0" />
+        <xs:element name="Name" type="xs:string" minOccurs="0" />
+        <xs:element name="Updated" type="xs:string" minOccurs="0" />
+        <xs:element ref="CreatedBy" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element ref="UpdatedBy" minOccurs="0" maxOccurs="unbounded" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RequestedBy">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Id" type="xs:string" minOccurs="0" />
+        <xs:element name="Name" type="xs:string" minOccurs="0" />
+        <xs:element name="email" type="xs:string" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Track">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="BeatsPerMinute" type="xs:string" minOccurs="0" />
+        <xs:element name="Created" type="xs:string" minOccurs="0" />
+        <xs:element name="DisplayTitle" type="xs:string" minOccurs="0" />
+        <xs:element name="Duration" type="xs:string" minOccurs="0" />
+        <xs:element name="Guid" type="xs:string" minOccurs="0" />
+        <xs:element name="ISRC" type="xs:string" minOccurs="0" />
+        <xs:element name="Id" type="xs:string" minOccurs="0" />
+        <xs:element name="IsActive" type="xs:string" minOccurs="0" />
+        <xs:element name="IsInstrumental" type="xs:string" minOccurs="0" />
+        <xs:element name="Labels" type="xs:string" minOccurs="0" />
+        <xs:element name="Requested" type="xs:string" minOccurs="0" />
+        <xs:element name="Title" type="xs:string" minOccurs="0" />
+        <xs:element name="TrackNumber" type="xs:string" minOccurs="0" />
+        <xs:element name="Updated" type="xs:string" minOccurs="0" />
+        <xs:element name="VocalGender" type="xs:string" minOccurs="0" />
+        <xs:element name="Year" type="xs:string" minOccurs="0" />
+        <xs:element ref="CreatedBy" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element name="EncodedAudioFiles" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element ref="element" minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Genres" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element ref="element" minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="MusicalWork" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CircleC" type="xs:string" minOccurs="0" />
+              <xs:element name="Created" type="xs:string" minOccurs="0" />
+              <xs:element name="HFACode" type="xs:string" minOccurs="0" />
+              <xs:element name="Id" type="xs:string" minOccurs="0" />
+              <xs:element name="Title" type="xs:string" minOccurs="0" />
+              <xs:element name="Updated" type="xs:string" minOccurs="0" />
+              <xs:element ref="CreatedBy" minOccurs="0" maxOccurs="unbounded" />
+              <xs:element name="Publishers" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Publisher" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Created" type="xs:string" minOccurs="0" />
+                          <xs:element name="HasInternationalClearance" type="xs:string" minOccurs="0" />
+                          <xs:element name="HasMechanicalRight" type="xs:string" minOccurs="0" />
+                          <xs:element name="HasPerformanceRight" type="xs:string" minOccurs="0" />
+                          <xs:element name="HasVideoRight" type="xs:string" minOccurs="0" />
+                          <xs:element name="Id" type="xs:string" minOccurs="0" />
+                          <xs:element name="Split" type="xs:string" minOccurs="0" />
+                          <xs:element name="Territory" type="xs:string" minOccurs="0" />
+                          <xs:element name="Updated" type="xs:string" minOccurs="0" />
+                          <xs:element name="name" type="xs:string" minOccurs="0" />
+                          <xs:element ref="CreatedBy" minOccurs="0" maxOccurs="unbounded" />
+                          <xs:element ref="UpdatedBy" minOccurs="0" maxOccurs="unbounded" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element ref="UpdatedBy" minOccurs="0" maxOccurs="unbounded" />
+              <xs:element name="Writers" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element ref="element" minOccurs="0" maxOccurs="unbounded" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PhysicalDisc" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CatelogNumber" type="xs:string" minOccurs="0" />
+              <xs:element name="Created" type="xs:string" minOccurs="0" />
+              <xs:element name="DiscNumber" type="xs:string" minOccurs="0" />
+              <xs:element name="Id" type="xs:string" minOccurs="0" />
+              <xs:element name="Location" type="xs:string" minOccurs="0" />
+              <xs:element name="Updated" type="xs:string" minOccurs="0" />
+              <xs:element ref="CreatedBy" minOccurs="0" maxOccurs="unbounded" />
+              <xs:element ref="UpdatedBy" minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element ref="PrimaryArtist" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element name="Release" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CDDBID" type="xs:string" minOccurs="0" />
+              <xs:element name="CircleP" type="xs:string" minOccurs="0" />
+              <xs:element name="Created" type="xs:string" minOccurs="0" />
+              <xs:element name="DisplayTitle" type="xs:string" minOccurs="0" />
+              <xs:element name="Guid" type="xs:string" minOccurs="0" />
+              <xs:element name="Id" type="xs:string" minOccurs="0" />
+              <xs:element name="IsActive" type="xs:string" minOccurs="0" />
+              <xs:element name="IsCompilation" type="xs:string" minOccurs="0" />
+              <xs:element name="NumberOfTracks" type="xs:string" minOccurs="0" />
+              <xs:element name="Requested" type="xs:string" minOccurs="0" />
+              <xs:element name="Title" type="xs:string" minOccurs="0" />
+              <xs:element name="Updated" type="xs:string" minOccurs="0" />
+              <xs:element ref="CreatedBy" minOccurs="0" maxOccurs="unbounded" />
+              <xs:element name="Labels" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element ref="element" minOccurs="0" maxOccurs="unbounded" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element ref="PrimaryArtist" minOccurs="0" maxOccurs="unbounded" />
+              <xs:element ref="RequestedBy" minOccurs="0" maxOccurs="unbounded" />
+              <xs:element ref="UpdatedBy" minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element ref="RequestedBy" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element ref="UpdatedBy" minOccurs="0" maxOccurs="unbounded" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="CreatedBy" />
+        <xs:element ref="element" />
+        <xs:element ref="UpdatedBy" />
+        <xs:element ref="PrimaryArtist" />
+        <xs:element ref="RequestedBy" />
+        <xs:element ref="Track" />
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
