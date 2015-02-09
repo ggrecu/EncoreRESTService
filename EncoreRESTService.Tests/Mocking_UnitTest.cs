@@ -8,7 +8,7 @@ namespace EncoreRESTService.Tests
     public class UnitTest3
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestMethod11()
         {
             Genre[] genre =  {};
             genre = genre.Mock();
